@@ -9,7 +9,7 @@ cask "caffeinate-ui" do
 
   conflicts_with cask: ["caffeine", "domzilla-caffeine"]
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Caffeinate UI.app"
 
