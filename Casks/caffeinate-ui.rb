@@ -14,6 +14,7 @@ cask "caffeinate-ui" do
   app "Caffeinate UI.app"
 
   uninstall quit: "personal.harinaralasetty.Caffeine"
+
   # No zap: preserve earned awards and preferences on ordinary uninstall.
 
   caveats <<~EOS
